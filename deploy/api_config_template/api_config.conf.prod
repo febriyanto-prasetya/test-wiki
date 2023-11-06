@@ -2,7 +2,7 @@
 #prod or test or staging or local
 env = prod
 https = yes
-secret = aladin_jaya_selalu
+secret = ask_the_developer
 
 url_odoo_live = odoo.domain.com
 port_odoo_live = 443
