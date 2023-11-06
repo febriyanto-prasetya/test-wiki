@@ -1,0 +1,11 @@
+[default]
+#prod or test or staging or local
+env = prod
+https = yes
+secret = aladin_jaya_selalu
+
+url_odoo_live = odoo.domain.com
+port_odoo_live = 443
+user_odoo_live = username_odoo
+password_odoo_live = password_odoo
+db_name_live = database_name_odoo
