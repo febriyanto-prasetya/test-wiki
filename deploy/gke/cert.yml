@@ -1,0 +1,8 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: middleware
+  namespace: aladin
+spec:
+  domains:
+    - middleware.domain.com
