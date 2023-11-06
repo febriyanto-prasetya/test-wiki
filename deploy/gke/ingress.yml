@@ -3,7 +3,7 @@ kind: "Ingress"
 metadata:
   name: "middleware-ingress"
   annotations:
-    networking.gke.io/managed-certificates: "aladin"
+    networking.gke.io/managed-certificates: "middleware"
     networking.gke.io/v1beta1.FrontendConfig: "middleware-frontend-config"
 spec:
   rules:
